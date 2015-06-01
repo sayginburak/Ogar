@@ -38,7 +38,7 @@ function GameServer(port,gameMode) {
         foodSpawnRate: 1000, // The interval between each food cell spawn in milliseconds
         foodSpawnAmount: 5, // The amount of food to spawn per interval
         foodMaxAmount: 500, // Maximum food cells on the map
-        foodMass: 1, // Starting food size (In mass)
+        foodMass: 25, // Starting food size (In mass)
         virusMinAmount: 10, // Minimum amount of viruses on the map. 
         virusMaxAmount: 50, // Maximum amount of viruses on the map. If this amount is reached, then ejected cells will pass through viruses.
         virusStartMass: 100.0, // Starting virus size (In mass)
@@ -46,7 +46,7 @@ function GameServer(port,gameMode) {
         ejectMass: 16, // Mass of ejected cells
         ejectMassGain: 14, // Amount of mass gained from consuming ejected cells
         ejectSpeed: 170, // Base speed of ejected cells
-        playerStartMass: 10, // Starting mass of the player cell.
+        playerStartMass: 30, // Starting mass of the player cell.
         playerMaxMass: 225000, // Maximum mass a player can have
         playerMinMassEject: 32, // Mass required to eject a cell
         playerMinMassSplit: 36, // Mass required to split
