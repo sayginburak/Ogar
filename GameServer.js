@@ -37,7 +37,7 @@ function GameServer(port,gameMode) {
         serverBots: 0, // Amount of player bots to spawn (Private feature)
         foodSpawnRate: 1000, // The interval between each food cell spawn in milliseconds
         foodSpawnAmount: 5, // The amount of food to spawn per interval
-        foodMaxAmount: 500, // Maximum food cells on the map
+        foodMaxAmount: 200, // Maximum food cells on the map
         foodMass: 3, // Starting food size (In mass)
         virusMinAmount: 10, // Minimum amount of viruses on the map. 
         virusMaxAmount: 50, // Maximum amount of viruses on the map. If this amount is reached, then ejected cells will pass through viruses.
