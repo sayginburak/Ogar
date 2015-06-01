@@ -54,7 +54,7 @@ function GameServer(port,gameMode) {
         playerRecombineTime: 15, // Amount of ticks before a cell is allowed to recombine (1 tick = 2000 milliseconds) - currently 30 seconds
         playerMassDecayRate: .004, // Amount of mass lost per tick (Multiplier) (1 tick = 2000 milliseconds)
         playerMinMassDecay: 9, // Minimum mass for decay to occur
-        playerSpeedMultiplier: 1.0, // Speed multiplier. Values higher than 1.0 may result in glitchy movement.
+        playerSpeedMultiplier: 0.7, // Speed multiplier. Values higher than 1.0 may result in glitchy movement.
         leaderboardUpdateInterval: 2000, // Time between leaderboard updates, in milliseconds
         leaderboardUpdateClient: 40 // How often leaderboard data is sent to the client (1 tick = 50 milliseconds)
     };
